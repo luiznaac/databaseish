@@ -7,6 +7,8 @@ def get_file_data(filepath, entity_name) -> dict:
         return json.loads(file.read())[entity_name]
     except:
         return {}
+    finally:
+        file.close()
 
 
 def write_file_data(filepath, entity_name, contents):
