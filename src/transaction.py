@@ -1,9 +1,9 @@
 import os
 import shutil
-import persistence
-from action import Action
+from src import persistence
+from src.action import Action
 from threading import Thread
-import lock_management
+from src import lock_management
 
 
 class Transaction:

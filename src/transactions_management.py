@@ -1,6 +1,6 @@
 from datetime import datetime
 import hashlib
-from transaction import Transaction
+from src.transaction import Transaction
 from typing import Optional
 import random
 
